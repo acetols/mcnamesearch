@@ -14,7 +14,7 @@ def is_username_available(username):
 
 
 with open(
-    "/Users/jirodaronville/Desktop/Coding/mc name checker/words.txt", "r"
+    "https://raw.githubusercontent.com/acetols/mcnamesearch/refs/heads/main/words.txt", "r"
 ) as file:
 
     for word in file:
